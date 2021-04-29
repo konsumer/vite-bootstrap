@@ -12,3 +12,5 @@ npm run build  # build static site in dist/
 npm run deploy # deploy static site on surge
 npm run lint   # clean up code to folow standardjs
 ```
+
+I made the initial prject, like [this](https://asciinema.org/a/obRS03giA1To87sM6ufHy7g6L).
