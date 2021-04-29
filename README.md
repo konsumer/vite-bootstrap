@@ -38,9 +38,10 @@ sed 's/@import "/@import "bootstrap\/scss\//g' node_modules/bootstrap/scss/boots
 
 # locally override variables
 cp node_modules/bootstrap/scss/_variables.scss src/variables.scss
-
-# go edit App.jsx to use App.scss instead of App.css
-# edit App.scss to use `./variables` instead of `bootstrap/scss/variables`
 ```
+
+- edit `App.jsx` to use `App.scss` instead of `App.css`
+- edit App.scss to use `./variables` instead of `bootstrap/scss/variables`
+- changed `scripts` around so they have `deploy`, `lint` and I like `start` better than `dev`
 
 After this, you can override any bootstrap scss locally (like I did with `variables`) or just comment it out, if you don't need it.
