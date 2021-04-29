@@ -43,4 +43,4 @@ cp node_modules/bootstrap/scss/_variables.scss src/variables.scss
 # edit App.scss to use `./variables` instead of `bootstrap/scss/variables`
 ```
 
-After this, you can override any bootstrap scss locally (liek I did with variables) or just comment it out, if you don't need it.
+After this, you can override any bootstrap scss locally (like I did with `variables`) or just comment it out, if you don't need it.
