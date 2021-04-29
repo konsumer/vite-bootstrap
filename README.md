@@ -41,7 +41,7 @@ sed 's/@import "/@import "bootstrap\/scss\//g' node_modules/bootstrap/scss/boots
 cp node_modules/bootstrap/scss/_variables.scss src/variables.scss
 ```
 
-- edit `App.jsx` to use `App.scss` instead of `App.css`
+- edit `App.jsx` to use `App.scss` instead of `App.css` I also quickly added a [demo front-page](src/App.jsx)
 - edit App.scss to use `./variables` instead of `bootstrap/scss/variables`
 - changed `scripts` around so they have `deploy`, `lint` and I like `start` better than `dev`
 
