@@ -25,6 +25,7 @@ I made the initial project, like [this](https://asciinema.org/a/obRS03giA1To87sM
 ```sh
 npm init @vitejs/app vite-bootstrap
 cd vite-bootstrap
+npm i
 ```
 
 ```sh
