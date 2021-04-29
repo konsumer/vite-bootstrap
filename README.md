@@ -22,12 +22,12 @@ This is what I did to turn default into custom bootstrap site:
 
 I made the initial project, like [this](https://asciinema.org/a/obRS03giA1To87sM6ufHy7g6L).
 
-```
+```sh
 npm init @vitejs/app vite-bootstrap
 cd vite-bootstrap
 ```
 
-```
+```sh
 # add tools & libs
 npm i -D sass surge standard
 npm i reactstrap bootstrap
