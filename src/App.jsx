@@ -4,7 +4,7 @@ import './App.scss'
 
 const App = (props) => {
   return (
-    <div>
+    <div className='p-4'>
       <Jumbotron>
         <h1 className='display-3'>Hello, world!</h1>
         <p className='lead'>This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
