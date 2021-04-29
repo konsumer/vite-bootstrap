@@ -43,6 +43,6 @@ cp node_modules/bootstrap/scss/_variables.scss src/variables.scss
 
 - edit `App.jsx` to use `App.scss` instead of `App.css` I also quickly added a [demo front-page](src/App.jsx)
 - edit App.scss to use `./variables` instead of `bootstrap/scss/variables`. I made primary-color (call-out buttons and stuff) [pink instead of blue](https://github.com/konsumer/vite-bootstrap/blob/main/src/variables.scss#L67).
-- changed `scripts` around so they have `deploy`, `lint` and I like `start` better than `dev`
+- changed [scripts](https://github.com/konsumer/vite-bootstrap/blob/main/package.json#L4-L10) around so they have `deploy`, `lint` and I like `start` better than `dev`
 
 After this, you can override any bootstrap scss locally (like I did with `variables`) or just comment it out, if you don't need it.
