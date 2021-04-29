@@ -5,7 +5,7 @@
     "start": "vite",
     "build": "vite build",
     "deploy": "surge dist vite-bootstrap.surge.sh",
-    "redeploy": "npm run build",
+    "predeploy": "npm run build",
     "lint": "standard --fix"
   },
   "dependencies": {
